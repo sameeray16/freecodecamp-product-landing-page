@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar-brand{
+    width: 100px;
+    padding-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: 0 20px 0 20px;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+/* main and heading */
+
+.bg-img{
+    display: block;
+}
+
+.heading1 , .heading2 , .heading3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.heading1{
+    position: absolute; bottom: 750px; left: 0; right: 0;
+}
+
+.heading2{
+    position: absolute; bottom: 700px; left: 0; right: 0;
+}
+
+.heading3{
+    position: absolute; bottom: 650px; left: 0; right: 0;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .bg-img{
+        visibility: hidden;
+    }
+
+    #home{
+        background-color: yellow;
+    }
+
+    .features{
+        position: absolute; top:  300px; left: 0; right: 0;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 501px){
+
+    .heading1{
+        position: absolute; bottom: 800px; left: 0; right: 0;
+    }
+    
+    .heading2{
+        position: absolute; bottom: 750px; left: 0; right: 0;
+    }
+    
+    .heading3{
+        position: absolute; bottom: 700px; left: 0; right: 0;
+    }
+
+    .features{
+        position: absolute; top:  250px; left: 0; right: 0;
+        line-height: 1;
+    }
+
+    
+}
+ 
+
+
+/* features */
+
+.features{
+    position: absolute; bottom: 450px; left: 0; right: 0;
+    line-height: 1;
+}
+
+
+
+/* pricing */
+
+
+.price-heading{
+    font-weight: bold;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .pricing-grid{
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 501px){
+    .pricing-grid{
+        margin: 0 150px;
+    }
+}
+
+/* contact */
+
+#contact{
+    background-color: yellow; 
+    padding-bottom: 10px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list li{
+    padding: 10px 20px;
+}
+
+.footer-list li:hover{
+    cursor: pointer;
+}
+
+
+
+
+
