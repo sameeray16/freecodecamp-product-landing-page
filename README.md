@@ -1,2 +1,2 @@
  freecodecamp-product-landing-page
- <a href=" "> check it out! </a>
+ <a href=" https://sameeray16.github.io/freecodecamp-product-landing-page/ "> check it out! </a>
